@@ -1,0 +1,237 @@
+* {
+    /* border: 1px dotted black; */
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+main {
+    border-style: hidden;
+}
+
+header {
+    background-color: #fffaf7;
+}
+
+.title {
+    display: flex;
+}
+
+.title__img {
+    width: 90px;
+}
+
+
+.title__slogan {
+    margin-top: 25px;
+    font-family: var(--font-body);
+    color: salmon;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.profile-header {
+    text-align: center;
+    padding: 0px 0;
+    display: flex;
+    gap: 3rem;
+}
+
+.profile-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+section.datos-usuarios {
+    display: flex;
+    justify-content: center;
+    background-color: #FFEDE9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 9rem;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
+    border-radius: 10px;
+    background-color: #fbf2f1;
+    height: 578px;
+}
+
+.imagen-profile {
+    display: block;
+    border: 0;
+    height: 3rem;
+    width: 3rem;
+}
+
+.actualiza-datos {
+    font-size: 24px;
+}
+
+.nombre-box,.apellidos-box, .numero-de-identidad-box, .numero-telefono-box, .email-box, .date-box {
+    display: grid;
+    width: 80vw;
+    padding-top: 3.5%;
+    
+}
+
+input#Nombre, input#apellido, input#numero-identidad, input#numero-de-telefono, input#email {
+    height: 26px;
+    
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+input#date {
+    width: 12rem;
+    font-size: 18px;
+    /* font-family: revert; */
+    border: none;
+    background-color: transparent;
+}
+
+/* footer {
+    background-image: linear-gradient(15deg, #f08080, #e9967a, #ffa07a, transparent);
+    border: solid #f08080, #e9967a, #ffa07a, transparent
+} */
+.nav {
+    width: 100%;
+    height: 60px;
+    margin: -6rem 0;
+    position: sticky;
+}
+
+
+.nav__menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 5.5rem; */
+    padding: 0;
+    margin-right: 17px;
+    margin-top: 31px;
+}
+
+.nav__menu-img {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+}
+
+button {
+    border: 0;
+    background-image: linear-gradient(15deg, #f08080, #e9967a, #ffa07a, transparent);
+    color: black;
+    display: flex;
+    font-size: 29px;
+    padding: 4px;
+    transition: .3s;
+    height: 3rem;
+    width: 38.5rem;
+    cursor: pointer;
+}
+
+.span {
+    padding: 10px 2px 7px 237px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+@media (max-width: 600px) {}
+@media (min-width: 601px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    
+    }
+    
+    .profile-header {
+        text-align: center;
+        padding: 0px 0;
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .profile-header img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #fff;
+    }
+    
+    section.datos-usuarios {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(15deg, #ffa07aa2, #f0808091, transparent);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding-bottom: 9rem;
+    }
+    
+    .imagen-profile {
+        display: block;
+        border: 0;
+        height: 3rem;
+        width: 3rem;
+    }
+    
+    .actualiza-datos {
+        font-size: 35px;
+        font-family: cursive;
+    }
+    
+    .nombre-box,.apellidos-box, .numero-de-identidad-box, .numero-telefono-box, .email-box, .date-box {
+        display: grid;
+        width: 80vw;
+        padding-top: 3.5%;
+    }
+    
+    input#Nombre, input#apellido, input#numero-identidad, input#numero-de-telefono, input#email {
+        height: 26px;
+        border-radius: 13px;
+        background-image: linear-gradient(15deg, #e9967a72, #ffa07a70, transparent);
+    }
+    
+    input#date {
+        width: 12rem;
+        font-size: 18px;
+        font-family: revert;
+        background-image: linear-gradient(15deg, #e9967a72, #ffa07a70, transparent);
+    }
+    
+    footer {
+        background-image: linear-gradient(15deg, #f08080, #e9967a, #ffa07a, transparent);
+        border: solid #f08080, #e9967a, #ffa07a, transparent
+    }
+    
+    button {
+        border: 0;
+        background-image: linear-gradient(15deg, #f08080, #e9967a, #ffa07a, transparent);
+        color: black;
+        display: flex;
+        font-size: 29px;
+        padding: 4px;
+        transition: .3s;
+        height: 3rem;
+        width: 38.5rem;
+        cursor: pointer;
+    }
+}

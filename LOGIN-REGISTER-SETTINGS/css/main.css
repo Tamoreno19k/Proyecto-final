@@ -1,0 +1,286 @@
+html {
+height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF9F7;
+}
+.title {
+    display: flex;
+}
+
+.title__img {
+    width: 90px;
+}
+
+.title__slogan {
+    margin-top: 25px;
+    font-family: var(--font-body);
+    color: salmon;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.login-box {
+  width: 400px;
+  padding: 40px;
+  box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
+  border-radius: 10px;
+  background-color: #fbf2f1;
+}
+.login-box__titulo {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 31px;
+}
+.login-box__subtitulo {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 0 35px 0;
+    padding: 0;
+    text-align: center;
+}
+.login-box__form {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+ .login-box__login-info{
+     position: relative;
+ }     
+
+.login-box__user-name {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.login-box__password {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+.login-box__forgot-password {
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.login-box__forgot-password-enlace {
+    text-decoration: none;
+    font-size: .8rem;
+}
+.boton-login{
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 30%;
+    background-color: #ffa0a6;
+    border-style: none;
+    border-radius: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+  }
+.boton{
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-left: 21%;
+    background-color: #ffa0a6;
+    border-style: none;
+    border-radius: 12px;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+  }
+.boton:hover{
+    background-color: #e46a5f;
+  }
+.boton-login:hover{
+    background-color: #e46a5f;
+  }
+.boton__text-enlance{
+    text-decoration: none;
+}  
+.methods {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.other-methods {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.other-methods__google {
+ height: 2rem;
+}
+ .other-methods__apple {
+    width: 2.5rem; 
+    padding-left: 2rem;
+    margin-top: 10px;
+}
+
+.other-methods__apple_2 {
+    width: 4.5rem; 
+    padding-left: 2rem;
+    margin-top: 10px;
+}
+
+img.other-methods__fb {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.other-methods__sign-in{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 4rem 0 0 0;
+    font-size: small;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.other-methods__enlace-sign-in{
+    text-decoration: none;
+}
+.register-box {
+    width: 400px;
+    padding: 40px;
+    box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
+    border-radius: 10px;
+    background-color: #fbf2f1;
+    
+  }
+  .register-box__titulo {
+      margin: 0 0 10px 0;
+      padding: 0;
+      text-align: center;
+      font-size: 31px;
+      font-family: 'Red Hat Display', sans-serif;  
+    }
+  .register-box__subtitulo {
+      margin: 0 0 35px 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;  
+    }
+  .register-box__form {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 40px;
+  }
+ .register-box__register-info{
+      position: relative;
+ }
+  .register-box__user-info {
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+      font-family: 'Red Hat Display', sans-serif;
+  }
+  .boton-register {
+    display: flex;
+    justify-content: center;
+    margin-right: 58px;
+}
+  .boton__register-cancel-enlace {
+      margin-top: .5rem;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: 'Red Hat Display', sans-serif;
+  }
+  .settings-box {
+    width: 375px;
+    padding: 40px;
+    box-shadow: 0px 1px 25px rgba(141, 96, 96, 0.6);
+    border-radius: 10px;
+    background-color: #fbf2f1;
+  }
+  .settings-box__titulo {
+      margin: 0 0 10px 0;
+      padding: 0;
+      text-align: center;
+      font-size: 31px;
+      font-family: 'Red Hat Display', sans-serif;
+
+  }
+  .settings-box__form {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 40px;
+  }
+  .settings-box__user-info {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    font-size: 19px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+  .settings-box__settings-info {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0rem; */
+    margin-left: 17px;
+}
+  .settings-box__enlace{
+    text-decoration: none;
+  }
+  .settings-box__user-info:hover{
+    background-color: #f8e4e2;
+    transition: all 0.7s ease-in-out;
+    border-radius: 20px;
+  }
+  .nav {
+    /* position: fixed; */
+    width: 100%;
+    height: 60px;
+    margin: -1rem 0;
+}
+.nav__menu {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 1.5rem;
+    padding: 0;
+    /* margin-right: 17px; */
+    gap: 127px;
+}
+.nav__menu-img {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    margin-left: 7px;
+}
